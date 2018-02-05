@@ -14,7 +14,7 @@ Also using a block is convenient when you need to [guarantee that in case of err
 Sometime it's required to apply different *processing strategies* for different lists of tasks,
 and in this case instead of having many *hosts* sections inside the main playbook it's far better to **import separate playbooks**.
 
-As with controlling warnings from your compiler, it's necessary to **pay attention to warnings which Ansible may produce**.
+As with controlling warnings from your compiler, it's necessary to [pay attention to warnings which Ansible may produce](http://github.com/agenosov/ansible_notes/tree/master/fixing_warnings).
 
 To wrap up:
 
