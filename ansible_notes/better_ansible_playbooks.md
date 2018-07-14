@@ -16,6 +16,8 @@ and in this case instead of having many *hosts* sections inside the main playboo
 
 As with controlling warnings from your compiler, it's necessary to [pay attention to warnings which Ansible may produce](http://github.com/agenosov/ansible_notes/tree/master/fixing_warnings).
 
+Also it would be useful to **give a name to entire playbook, not only for each task**.
+
 To wrap up:
 
 * keep the main playbook simple in order to not loose the big picture of what's going on.
